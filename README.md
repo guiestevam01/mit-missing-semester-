@@ -1,4 +1,3 @@
-```markdown
 # ./missing-semester aulas passado sobre
 
 ## Visão Geral do Curso + Introdução ao Shell
