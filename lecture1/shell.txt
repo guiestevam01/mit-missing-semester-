@@ -1,0 +1,29 @@
+Uma afirmacao interessante que ele disse é que muitas interfaces são especializadas de acordo com o que o autor daquela interface tinha em mente. Então existe uma limitacao do que eu realmente posso fazer.
+Shell proporciona um melhor controle e encadeamento de processos.
+SHELL: Um programa no computador que permite inserir cmando e impre as saidas desses comandos
+Shell é executado no contextro de terminal em linux e mac abre o bash que e um dos shell mais usados. 
+Tem zsh que é um shell compativel com bash mas ele tem mais opcao ergonomicas algo assim.
+Shell permite combinar programas.
+usenaem@host:~ se tenho % apos o ~ entao indica que estou nomeu home directory
+posso digitar programas como date
+Tem programas com argumentos, os argumentos sao os elementos que seguem o nome do programa nocomando 
+echo(program) hello world ele imprimir hello world
+aqui ocorre argument parsing que em bash ele consiste em pegar uma String e dividir em grupose cada palavra separada por um espaco representa um argumento 
+sendo o primerio argumento o comando a ser executado. Se quero manter os espacos em brancos posso usar aspas "<string>"
+echo hello       world
+saida: hello world
+echo "hello     worlds"
+saida hello     worlds
+.. 
+Existe date que retorna uma string da data atual e voce pode ver manual em man date ou abreviado date --help
+ele fala sobre o comando cd que significa "Change directory" ele muda de diretorio.
+cd /path
+relative path sao dao caminhos que nao comeca com a / posso usar ele para ir em arquivos com muitos diretorios.
+cd bin 
+. = diretorio atual 
+.. = diretorio raiz
+
+COmo o shell sabe qual programa executar quando digito date por exemplo? que programa roda? onde esta date?
+Quando digito um programa o que o shell faz e pegar o nome do programa e procula-lo em algo chamado path, path é uma variavel de ambiente. Variavel que e definida em toda a minha estrutura de mepeamentro de variaveeis para valores como nome para String.
+E essas informacoes descreveram o conjunto de metadados que o shell pode utiliar.
+entoa echo ele consulta na variavel ambiente $path que lista os diretorios nos quais o shell vai procurar pelo e ech1
