@@ -1,8 +1,3 @@
-Repostorio de estudo
-
-
-Aqui está a tradução do texto fornecida em formato Markdown.
-
 ```markdown
 # ./missing-semester aulas passado sobre
 
